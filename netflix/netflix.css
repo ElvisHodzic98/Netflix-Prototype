@@ -1,0 +1,246 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.home {
+    height: 74%;
+    border-bottom: 7px solid grey;
+    position: relative;
+}
+
+.background-image {
+    filter: brightness(30%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.netflix-logo {
+    margin-left: 30px;
+    height: 40px;
+    width: 140px;
+}
+
+.navbar {
+    height: 10%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-left {
+    margin-right: 20px;
+}
+
+.language-dropwown {
+    height: 35px;
+    width: 99px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.login-button {
+    height: 35px;
+    width: 99px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.center-text-email-button {
+    margin-top: 150px;
+    flex-grow: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.unlimited-movies {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.watch-anywhere {
+    margin: 0px;
+}
+
+#email-box-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ready-to-watch {
+    font-size: 20px;
+}
+
+#email-box {
+    height: 50px;
+    width: 450px;
+}
+
+#get-started {
+    background-color: red;
+    color: white;
+    width: 200px;
+    font-size: 25px;
+    border: 0px;
+}
+.enjoy-on-your-tv{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    border-bottom: 7px solid grey;
+    
+
+}
+.text-1{
+    display: flex;
+    color: white;
+    text-align: left;
+    margin-top: 60px;
+    
+    flex-direction: column;
+
+}
+.enjoy-on-tv-h1{
+font-size: 55px;
+margin: 0px;
+}
+.watch-on-smart-h2{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.tv-picture-1{
+    height: 370px;
+    width: 520px;
+}
+
+.download-your-shows{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    border-bottom: 7px solid grey;
+}
+.download-your-shows-text{
+    display: flex;
+    color: white;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 50px;
+    
+    flex-direction: column;
+}
+.download-your-shows-h1{
+    font-size: 55px;
+    margin: 0px;
+}
+.mobile-pic{
+    height: 330px;
+    width: 500px; 
+    margin-right: 50px;
+}
+.watch-everywhere{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    border-bottom: 7px solid grey;
+}
+.watch-everywhere-text{
+    display: flex;
+    color: white;
+    text-align: left;
+    margin-top: 60px;
+    margin-right: 50px;
+    flex-direction: column
+}
+.watch-everywhere-text-h1{
+    font-size: 55px;
+    margin: 0px;
+}
+.devices{
+    height: 350px;
+    width: 530px; 
+    margin-left: 50px;
+}
+.create-profiles-kids{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    border-bottom: 7px solid grey;
+}
+.kids-image{
+    height: 350px;
+    width: 530px; 
+    margin-right: 50px;
+}
+.create-profiles-kids-text{
+    display: flex;
+    color: white;
+    text-align: left;
+    margin-top: 60px;
+    margin-right: 50px;
+    flex-direction: column 
+}
+.create-profiles-kids-text-h1{
+    font-size: 50px;
+    margin: 0px;
+}
+.what-is-netflix-buttons{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+    border-bottom: 7px solid grey;
+    align-items: center;
+    
+    
+}
+.what-is-netflix-h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+#about-netflix{
+    background-color: rgb(56, 55, 55);
+    height: 85px;
+    width: 810px;
+    margin-bottom: 7px;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 30px;
+}
+.under-button-paragraph{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 55px;
+    
+}
+
+
