@@ -8,7 +8,7 @@ body {
 }
 
 .home {
-    height: 74%;
+    height: 73%;
     border-bottom: 7px solid grey;
     position: relative;
 }
@@ -24,9 +24,10 @@ body {
 }
 
 .netflix-logo {
-    margin-left: 30px;
-    height: 40px;
-    width: 140px;
+    margin-left: 42px;
+    margin-top: 2px;
+    height: 45px;
+    width: 142px;
 }
 
 .navbar {
@@ -38,7 +39,8 @@ body {
 }
 
 .navbar-left {
-    margin-right: 20px;
+    margin-right: 45px;
+    margin-top: 2px;
 }
 
 .language-dropwown {
@@ -47,18 +49,22 @@ body {
     color: white;
     background-color: black;
     border-radius: 3px;
-    margin-right: 20px;
+    margin-right: 26px;
     text-align: center;
+    
 }
 
-.login-button {
+.about-netflix {
     height: 35px;
-    width: 99px;
+    width: 85px;
     color: white;
     background-color: red;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 17px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+    font-size: 16px;
+    border: 1px;
+    font-family: sans-serif;
 }
 
 .center-text-email-button {
@@ -73,10 +79,12 @@ body {
 .unlimited-movies {
     font-size: 50px;
     margin: 0px;
+    font-family: sans-serif;
 }
 
 .watch-anywhere {
     margin: 0px;
+    font-family: sans-serif;
 }
 
 #email-box-div {
@@ -87,6 +95,7 @@ body {
 
 .ready-to-watch {
     font-size: 20px;
+    font-family: sans-serif;
 }
 
 #email-box {
@@ -100,6 +109,7 @@ body {
     width: 200px;
     font-size: 25px;
     border: 0px;
+    cursor: pointer;
 }
 .enjoy-on-your-tv{
     background-color: black;
@@ -108,6 +118,9 @@ body {
     justify-content: space-around;
     padding: 50px;
     border-bottom: 7px solid grey;
+    align-items: center;
+    
+    
     
 
 }
@@ -116,21 +129,26 @@ body {
     color: white;
     text-align: left;
     margin-top: 60px;
-    
+    font-family: sans-serif;
     flex-direction: column;
 
 }
 .enjoy-on-tv-h1{
-font-size: 55px;
+font-size: 52px;
 margin: 0px;
+font-family: sans-serif;
+margin-bottom: 7px;
 }
 .watch-on-smart-h2{
     font-size: 25px;
     margin-top: 10px;
+    font-family: sans-serif;
+    
 }
 .tv-picture-1{
     height: 370px;
     width: 520px;
+    margin-left: 5px;
 }
 
 .download-your-shows{
@@ -140,6 +158,7 @@ margin: 0px;
     justify-content: space-around;
     padding: 50px;
     border-bottom: 7px solid grey;
+    font-family: sans-serif;
 }
 .download-your-shows-text{
     display: flex;
@@ -151,7 +170,7 @@ margin: 0px;
     flex-direction: column;
 }
 .download-your-shows-h1{
-    font-size: 55px;
+    font-size: 52px;
     margin: 0px;
 }
 .mobile-pic{
@@ -166,6 +185,7 @@ margin: 0px;
     justify-content: space-around;
     padding: 50px;
     border-bottom: 7px solid grey;
+    font-family: sans-serif;
 }
 .watch-everywhere-text{
     display: flex;
@@ -191,6 +211,7 @@ margin: 0px;
     justify-content: space-around;
     padding: 50px;
     border-bottom: 7px solid grey;
+    font-family: sans-serif;
 }
 .kids-image{
     height: 350px;
@@ -217,6 +238,8 @@ margin: 0px;
     padding: 50px;
     border-bottom: 7px solid grey;
     align-items: center;
+    font-family: sans-serif;
+    
     
     
 }
@@ -234,6 +257,7 @@ margin: 0px;
     font-size: 25px;
     text-align: left;
     padding-left: 30px;
+    cursor: pointer;
 }
 .under-button-paragraph{
     color: white;
@@ -242,5 +266,58 @@ margin: 0px;
     margin-top: 55px;
     
 }
+.footer{
+    background-color: black;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+    padding-left: 170px;
+    row-gap: 10px;
+    font-family: sans-serif;
+    
+    
+    
+}
+.questions-div{
+    color: grey;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+}
+.footer-grid-elements{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    grid-template-rows:repeat(4,25px);
+    grid-column-gap: 60px;
+    grid-row-gap: 10px;
+    cursor: pointer;
+    
+    
+}
+#grid-element{
+    background-color: black;
+    color: gray;
+    font-size: 13px;
+    
+    
+}
+.footer-language-dropdown{
+    height: 55px;
+    width: 139px;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-align: center;
+}   
+.last-paragraph{
+background-color: black;
+color: gray;
+font-size: 12px;
+}
+
 
 
